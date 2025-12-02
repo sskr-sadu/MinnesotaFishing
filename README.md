@@ -3,31 +3,21 @@
 This repository contains an exploratory data analysis (EDA) of Minnesota lake fishing activity, focusing on how temperature, depth, species, and lake characteristics influence catch counts.
 It includes visualizations, aggregated statistics, and interactive Bokeh dashboards.
 
-Repository Structure
-MinnesotaFishing/
-│
-├── data/
-│   └── fish_data.csv                 # Raw dataset
-│
-├── notebooks/
-│   └── OmniaFishling.ipynb           # Full exploratory analysis
-│
-├── visuals/                          # Static PNG/plot outputs
-│   ├── Temperature_vs_Catch.png
-│   ├── Depth_vs_Catch.png
-│   ├── Temperature_vs_Depth.png
-│   ├── Species_Counts_per_Lake.png
-│   ├── Monthly_Catch_by_Lake.png
-│   ├── Monthly_Catch_by_Species.png
-│   └── ...
-│
-├── interactive/                      # Interactive Bokeh dashboards
-│   ├── temp_catch_lake_dropdown.html
-│   ├── depth_catch_lake_dropdown.html
-│   ├── monthly_catch_lake_dropdown.html
-│   └── ...
-│
-└── README.md
+## 📁 Repository Structure
+
+- [`data/`](data/)
+  - `fish_data.csv` – raw input dataset
+- [`notebooks/`](notebooks/)
+  - [`OmniaFishling.ipynb`](notebooks/OmniaFishling.ipynb) – main exploratory analysis
+- [`visuals/`](visuals/)
+  - static PNG plots (temperature vs catch, depth vs catch, species counts, time series, etc.)
+- [`interactive/`](interactive/)
+  - Bokeh HTML dashboards:
+    - temperature vs catch (lake dropdown + species toggle + regression)
+    - depth vs catch (lake dropdown + species toggle + regression)
+    - monthly catch trends (lake dropdown + species series)
+- [`README.md`](README.md)
+
 
 Project Objective
 The goal of this project is to:
