@@ -10,13 +10,13 @@ It includes visualizations, aggregated statistics, and interactive Bokeh dashboa
 - [`notebooks/`](notebooks/)
   - [`OmniaFishling.ipynb`](notebooks/OmniaFishling.ipynb) – main exploratory analysis
 - [`visuals/`](visuals/)
-  Static PNG plots:
-  - temperature vs catch
-  - depth vs catch
-  - temperature vs depth
-  - species counts per lake
-  - monthly catch by lake
-  - monthly catch by species
+  -Static PNG plots:
+    - temperature vs catch
+    - depth vs catch
+    - temperature vs depth
+    - species counts per lake
+    - monthly catch by lake
+    - monthly catch by species
 - [`interactive/`](interactive/)
   - Bokeh HTML dashboards:
     - temperature vs catch (lake dropdown + species toggle + regression)
