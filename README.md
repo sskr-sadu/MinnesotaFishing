@@ -18,6 +18,48 @@ It includes visualizations, aggregated statistics, and interactive Bokeh dashboa
     - monthly catch trends (lake dropdown + species series)
 - [`README.md`](README.md)
 
+## 📁 Repository Structure
+
+<details>
+  <summary><b>📂 data/</b></summary>
+
+- [`data/fish_data.csv`](data/fish_data.csv) – raw input dataset
+
+</details>
+
+<details>
+  <summary><b>📓 notebooks/</b></summary>
+
+- [`notebooks/OmniaFishling.ipynb`](notebooks/OmniaFishling.ipynb) – full exploratory notebook
+
+</details>
+
+<details>
+  <summary><b>🖼 visuals/</b></summary>
+
+Static PNG plots:
+- temperature vs catch
+- depth vs catch
+- temperature vs depth
+- species counts per lake
+- monthly catch by lake
+- monthly catch by species
+
+</details>
+
+<details>
+  <summary><b>🌐 interactive/</b></summary>
+
+Bokeh dashboards:
+- temperature vs catch (lake dropdown + species selection + regression)
+- depth vs catch (lake dropdown + species selection + regression)
+- monthly catch time series (lake dropdown + species series)
+
+</details>
+
+- `README.md` – project documentation
+
+
 
 Project Objective
 The goal of this project is to:
