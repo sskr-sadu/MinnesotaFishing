@@ -5,25 +5,29 @@ It includes visualizations, aggregated statistics, and interactive Bokeh dashboa
 📁 Repository Structure
 MinnesotaFishing/
 │
-├── notebooks/
-│   └── OmniaFishling.ipynb      # Main analysis notebook
+├── data/
+│   └── fish_data.csv                 # Raw dataset
 │
-├── visuals/                     # Static PNG plots
+├── notebooks/
+│   └── OmniaFishling.ipynb           # Full exploratory analysis
+│
+├── visuals/                          # Static PNG/plot outputs
 │   ├── Temperature_vs_Catch.png
 │   ├── Depth_vs_Catch.png
+│   ├── Temperature_vs_Depth.png
+│   ├── Species_Counts_per_Lake.png
 │   ├── Monthly_Catch_by_Lake.png
 │   ├── Monthly_Catch_by_Species.png
-│   ├── Species_Counts_per_Lake.png
-│   ├── Temperature_vs_Depth.png
 │   └── ...
 │
-├── interactive/                 # Interactive Bokeh HTML dashboards
+├── interactive/                      # Interactive Bokeh dashboards
 │   ├── temp_catch_lake_dropdown.html
 │   ├── depth_catch_lake_dropdown.html
 │   ├── monthly_catch_lake_dropdown.html
 │   └── ...
 │
 └── README.md
+
 🎯 Project Objective
 The goal of this project is to:
 Analyze fish catch patterns across Minnesota lakes
