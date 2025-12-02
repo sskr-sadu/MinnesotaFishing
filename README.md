@@ -27,7 +27,7 @@ It includes visualizations, aggregated statistics, and interactive Bokeh dashboa
 
 
 
-Project Objective
+###Project Objective
 The goal of this project is to:
 Analyze fish catch patterns across Minnesota lakes
 Examine how environmental factors (temperature, depth) relate to catch success
@@ -36,7 +36,7 @@ Understand seasonality of catch activity
 Build interactive tools to explore lake × species patterns
 This analysis is particularly relevant for ecological insights, angler recommendations, and future predictive modeling.
 
-Key Analyses & Visualizations
+###Key Analyses & Visualizations
 1. Data Cleaning & Quality Checks
 Handled missing values
 Removed duplicates
@@ -67,7 +67,7 @@ Temperature Time Series
 Average temperature trends per lake
 Strong seasonal signatures
 
-Interactive Dashboards (Bokeh)
+###Interactive Dashboards (Bokeh)
 Interactive HTML visualizations include:
 Temperature vs Catch Count
 Depth vs Catch Count
@@ -79,7 +79,7 @@ Auto-updating regression lines
 Dynamic point filtering
 These allow interactive exploration of lake–species behavior.
 
-Conclusions
+###Conclusions
 Depth is a stronger predictor of catch behavior than temperature.
 Temperature shows no strong linear relationship with catch.
 Fish species show distinct depth and distribution patterns.
@@ -87,14 +87,7 @@ Catch counts follow clear seasonal patterns across months.
 Lakes differ significantly in species composition and catch totals.
 Interactive filters confirm strong lake × species interactions.
 
-Future Enhancements
-Predictive modeling (Random Forest, Prophet, XGBoost)
-Spatial analysis with lake coordinates
-CPUE (Catch Per Unit Effort) modeling
-More advanced interactive dashboards
-Integration with external temperature sources (NOAA, NASA EarthData)
-
-Technologies Used
+#Technologies Used
 Python 3
 Pandas
 NumPy
@@ -112,6 +105,3 @@ pip install -r requirements.txt
 Launch the notebook:
 jupyter notebook notebooks/OmniaFishling.ipynb
 Open any interactive HTML file in /interactive/ to explore dashboards.
-
-Acknowledgements
-This analysis was conducted as part of a broader exploration of Minnesota lake fishing patterns, with potential applications in environmental analytics, fisheries modeling, and recreational data tools.
