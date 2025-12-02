@@ -1,11 +1,11 @@
-# 🐟 MinnesotaFishing
+# MinnesotaFishing
 
 This repository contains an exploratory data analysis (EDA) of Minnesota lake fishing activity, focusing on how **temperature**, **depth**, **species**, and **lake characteristics** influence **catch counts**.  
 It includes visualizations, aggregated statistics, and interactive Bokeh dashboards.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `data/`  
   - `fish_data.csv` – raw input dataset
@@ -32,7 +32,7 @@ It includes visualizations, aggregated statistics, and interactive Bokeh dashboa
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 The goal of this project is to:
 
@@ -46,7 +46,7 @@ This analysis is particularly relevant for ecological insights, angler decision-
 
 ---
 
-## 📊 Key Analyses & Visualizations
+## Key Analyses & Visualizations
 
 ### **1. Data Cleaning & Quality Checks**
 
@@ -90,7 +90,7 @@ This analysis is particularly relevant for ecological insights, angler decision-
 
 ---
 
-## 🌐 Interactive Dashboards (Bokeh)
+## Interactive Dashboards (Bokeh)
 
 Interactive HTML visualizations include:
 
@@ -109,7 +109,7 @@ These enable real-time exploration of species behavior and lake-specific conditi
 
 ---
 
-## 🧠 Conclusions
+## Conclusions
 
 - **Depth is a stronger predictor of catch behavior than temperature**  
 - **Temperature does not show a strong linear relationship with catch count**  
@@ -120,7 +120,7 @@ These enable real-time exploration of species behavior and lake-specific conditi
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python 3  
 - Pandas  
@@ -132,7 +132,7 @@ These enable real-time exploration of species behavior and lake-specific conditi
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Clone the repository:
 
@@ -157,6 +157,6 @@ Open any HTML file in the `/interactive/` folder to explore the dashboards.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 This project explores Minnesota fishing data with applications in environmental science, fishery analytics, and angler decision support systems.
