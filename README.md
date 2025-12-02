@@ -11,7 +11,7 @@ It includes visualizations, aggregated statistics, and interactive Bokeh dashboa
   - `fish_data.csv` – raw input dataset
 
 - `notebooks/`  
-  - `OmniaFishling.ipynb` – main exploratory analysis
+  - `MinnesotaFishling.ipynb` – main exploratory analysis
 
 - `visuals/`  
   Static PNG plots including:  
